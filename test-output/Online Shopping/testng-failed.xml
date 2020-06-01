@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Online Shopping]">
+  <test thread-count="5" name="Online Shopping(failed)">
+    <parameter name="email" value="apples777@gmail.com"/>
+    <classes>
+      <class name="com.productus.test.OnlineShopping">
+        <methods>
+          <include name="teardown"/>
+          <include name="mandatorydetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.productus.test.OnlineShopping -->
+    </classes>
+  </test> <!-- Online Shopping(failed) -->
+</suite> <!-- Failed suite [Online Shopping] -->
